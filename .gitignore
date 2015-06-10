@@ -1,0 +1,10 @@
+
+**/secret_keys.php
+
+**/images/**
+**/cache/**
+**/.htacess
+.htaccess
+**/*.lock
+
+
