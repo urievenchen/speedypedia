@@ -133,3 +133,5 @@ require_once("secret_keys.php");
 require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
 $wgMFAutodetectMobileView = true;
 
+# CustomUserForm
+require_once($IP."/extensions/customUserCreateForm/customUserCreateForm.php");
