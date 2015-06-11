@@ -130,7 +130,7 @@ wfLoadSkin( 'Vector' );
 # Add more configuration options below.
 
 # database settings and secret key
-require_once("secret_keys.php");
+require_once("/var/include/speedypedia/en/secret_keys.php");
 
 # enable Mobile Frontend extension for mobile website
 require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";

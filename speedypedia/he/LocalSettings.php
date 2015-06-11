@@ -125,7 +125,7 @@ wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Vector' );
 
 # database settings and secret key
-require_once("secret_keys.php");
+require_once("/var/include/speedypedia/he/secret_keys.php");
 
 # End of automatically generated settings.
 # Add more configuration options below.

@@ -1,0 +1,4 @@
+AuthUserFile /var/include/speedypedia/.htpasswd
+AuthType Basic
+AuthName "Password Required"
+Require valid-user
