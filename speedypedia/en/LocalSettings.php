@@ -41,7 +41,6 @@ $wgResourceBasePath = $wgScriptPath;
 #$wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgLogo = "$wgResourceBasePath/resources/assets/speedy_logo_new.png";
 
-
 ## UPO means: this is also a user preference option
 
 $wgEnableEmail = false;

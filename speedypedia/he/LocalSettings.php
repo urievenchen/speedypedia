@@ -18,7 +18,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-#$wgSitename = "ספידיפדיה (אלפא)";
 $wgSitename = "ספידיפדיה";
 
 ## The URL base path to the directory containing the wiki;
