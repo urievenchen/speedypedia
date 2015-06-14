@@ -30,7 +30,7 @@ $wgScriptPath = "";
 $wgScriptExtension = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://en.speedy2000.net";
+$wgServer = "http://en.speedypedia.info";
 
 ## The relative URL path to the skins directory
 $wgStylePath = "$wgScriptPath/skins";
@@ -46,8 +46,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/speedy_logo_new.png";
 $wgEnableEmail = false;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "webmaster@speedy.net";
-$wgPasswordSender = "webmaster@speedy.net";
+$wgEmergencyContact = "webmaster@speedypedia.info";
+$wgPasswordSender = "webmaster@speedypedia.info";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
