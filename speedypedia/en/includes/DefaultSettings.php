@@ -4797,7 +4797,7 @@ $wgNonincludableNamespaces = array();
  *  $wgAutoConfirmAge = 3600*24; // one day
  * @endcode
  */
-$wgAutoConfirmAge = 0;
+$wgAutoConfirmAge = 30 * 24 * 60 * 60; // 30 days.
 
 /**
  * Number of edits an account requires before it is autoconfirmed.
@@ -4808,7 +4808,7 @@ $wgAutoConfirmAge = 0;
  * $wgAutoConfirmCount = 50;
  * @endcode
  */
-$wgAutoConfirmCount = 0;
+$wgAutoConfirmCount = 10; // 10 edits.
 
 /**
  * Automatically add a usergroup to any user who matches certain conditions.
