@@ -189,25 +189,13 @@ class customUsercreateTemplate extends BaseTemplate {
 				<?php } ?>
 			</div>
 
-			<?php if ( $this->data['userealname'] ) { ?>
-				<div class="mw-ui-vform-field">
-					<label for='wpRealName'><?php $this->msg( 'createacct-realname' ); ?></label>
-					<input type='text' class='mw-ui-input loginText' name="wpRealName" id="wpRealName"
-						tabindex="7"
-						value="<?php $this->text( 'realname' ); ?>" size='20' />
-					<div class="prefsectiontip">
-						<?php $this->msgWiki( $this->data['loggedin'] ? 'createacct-another-realname-tip' : 'prefs-help-realname' ); ?>
-					</div>
-				</div>
-			<?php } ?>
-
 			<?php if ( $this->data['usereason'] ) { ?>
 				<div class="mw-ui-vform-field">
 					<label for='wpReason'><?php $this->msg( 'createacct-reason' ); ?></label>
 					<?php echo Html::input( 'wpReason', $this->data['reason'], 'text', array(
 						'class' => 'mw-ui-input loginText',
 						'id' => 'wpReason',
-						'tabindex' => '8',
+						'tabindex' => '7',
 						'size' => '20',
 						'placeholder' => $this->getMsg( 'createacct-reason-ph' )->text()
 					) ); ?>
@@ -215,7 +203,7 @@ class customUsercreateTemplate extends BaseTemplate {
 			<?php } ?>
 
 			<?php
-			$tabIndex = 9;
+			$tabIndex = 7;
 			if ( isset( $this->data['extraInput'] ) && is_array( $this->data['extraInput'] ) ) {
 				foreach ( $this->data['extraInput'] as $inputItem ) { ?>
 					<div class="mw-ui-vform-field">

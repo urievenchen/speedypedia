@@ -43,7 +43,7 @@ $wgLogo = "$wgResourceBasePath/resources/assets/speedy_logo_new.png";
 
 ## UPO means: this is also a user preference option
 
-$wgEnableEmail = false;
+$wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
 $wgEmergencyContact = "webmaster@speedypedia.info";

@@ -49,16 +49,6 @@ function saveAdditionalFields( User $user, $byEmail ) {
 			)
 		);
 	}
-	if ( !empty($wgRequest->getVal('wpEmail')) ) {
-		$resEmail = $dbr->insert(
-			'user_properties',
-			array(
-				'up_user' => $userId,
-				'up_property' => 'email',
-				'up_value' => $wgRequest->getVal('wpEmail')
-			)
-		);
-	}
 }
 
 function customUserCreateForm( &$template ) {
@@ -101,8 +91,7 @@ function customUserCreateForm( &$template ) {
 			"label" => "(I prefer not to say)"
 		);
 		// Add gender radio boxes to user creation
-		$template->addRadioButtons("wpGender", "Choose Gender", array( $maleRadio, $femaleRadio, $otherRadio ));
-		$template->addInputItem("wpEmail", "", "email", "Email");
+		$template->addRadioButtons("wpGender", "Choose Gender", array( $femaleRadio, $maleRadio, $otherRadio ));
  
 		// if there is a return to page adjust relevant links
 		if ( !empty( $mReturnTo ) ) {
@@ -110,6 +99,11 @@ function customUserCreateForm( &$template ) {
 			$q .= $returnto;
 			$linkq .= $returnto;
 		}
+
+		// decide what to show in login and registration forms
+		$tempData['useemail'] = true;
+		$tempData['canreset'] = true;
+		$tempData['userealname'] = false;
  
 		// add the old template data to the new template
 		foreach ($tempData as $key => $value) {
