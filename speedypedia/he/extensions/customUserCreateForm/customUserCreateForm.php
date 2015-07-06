@@ -83,7 +83,7 @@ function customUserCreateForm( &$template ) {
 		$femaleRadio = array(
 			"id" => "wpFemaleGender",
 			"value" => "female",
-			"label" => "ביא עורכת דפים בוויקי"
+			"label" => "היא עורכת דפים בוויקי"
 		);
 		$otherRadio = array(
 			"id" => "wpOtherGender",
