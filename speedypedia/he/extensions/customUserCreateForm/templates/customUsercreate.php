@@ -204,9 +204,10 @@ class customUsercreateTemplate extends BaseTemplate {
 
 			<?php
 			$tabIndex = 7;
-			if ( isset( $this->data['extraInput'] ) && is_array( $this->data['extraInput'] ) ) {
-				foreach ( $this->data['extraInput'] as $inputItem ) { ?>
+			if ( isset( $this->data['extraInput'] ) && is_array( $this->data['extraInput'] ) ) { ?>
+				<?php foreach ( $this->data['extraInput'] as $inputItem ) { ?>
 					<div class="mw-ui-vform-field">
+						<label for="wpGender">איזה תיאור מתאים לך? (לא חובה)</label>
 						<?php
 						// If it's a checkbox, output the whole thing (assume it has a msg).
 						if ( $inputItem['type'] == 'checkbox' ) {
@@ -239,7 +240,7 @@ class customUsercreateTemplate extends BaseTemplate {
 										id="<?php echo htmlspecialchars($radioChoice['id']) ?>"
 										tabindex="<?php echo $tabIndex++; ?>"
 										value="<?php echo htmlspecialchars($radioChoice['value']) ?>"
-										<?php if ($radioChoice['value'] == 'other')  {
+										<?php if ($radioChoice['value'] == 'other' || $radioChoice['value'] == '')  {
 											echo 'checked="checked"';
 										}?>
 									><?php echo htmlspecialchars( $radioChoice['label'] ) ?><br/>

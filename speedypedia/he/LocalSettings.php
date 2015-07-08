@@ -27,6 +27,8 @@ $wgSitename = "ספידיפדיה";
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 # $wgScriptPath = "/speedypedia/he";
 $wgScriptPath = "";
+$wgArticlePath = "/$1";
+$wgUsePathInfo = true;
 $wgScriptExtension = ".php";
 
 ## The protocol and server name to use in fully-qualified URLs

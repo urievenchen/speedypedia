@@ -74,24 +74,23 @@ function customUserCreateForm( &$template ) {
 		$linkq = 'type=login';
 		$linkmsg = 'gotaccount';
 
-
-		$maleRadio = array(
-			"id" => "wpMaleGender",
-			"value" => "male",
-			"label" => "He edits wiki pages"
+		$otherRadio = array(
+			"id" => "wpOtherGender",
+			"value" => "",
+			"label" => "(I prefer not to say)"
 		);
 		$femaleRadio = array(
 			"id" => "wpFemaleGender",
 			"value" => "female",
 			"label" => "She edits wiki pages"
 		);
-		$otherRadio = array(
-			"id" => "wpOtherGender",
-			"value" => "",
-			"label" => "(I prefer not to say)"
+		$maleRadio = array(
+			"id" => "wpMaleGender",
+			"value" => "male",
+			"label" => "He edits wiki pages"
 		);
 		// Add gender radio boxes to user creation
-		$template->addRadioButtons("wpGender", "Choose Gender", array( $femaleRadio, $maleRadio, $otherRadio ));
+		$template->addRadioButtons("wpGender", "Choose Gender", array( $otherRadio, $femaleRadio, $maleRadio ));
  
 		// if there is a return to page adjust relevant links
 		if ( !empty( $mReturnTo ) ) {
