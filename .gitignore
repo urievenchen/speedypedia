@@ -1,7 +1,4 @@
-speedypedia/index.php
-speedypedia/include.inc
-speedypedia/init_variables.inc
-speedypedia/stylesheet.css
+speedypedia/main/
 **/images/**
 **/cache/**
 **/docs/**
