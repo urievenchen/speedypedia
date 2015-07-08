@@ -40,7 +40,7 @@ $wgResourceBasePath = $wgScriptPath;
 
 ## The relative URL path to the logo.  Make sure you change this from the default,
 ## or else you'll overwrite your logo when you upgrade!
-$wgLogo = "$wgResourceBasePath/resources/assets/speedy_logo_new.png";
+$wgLogo = "$wgResourceBasePath/resources/assets/speedypedia/speedypedia_he_logo_1a.png";
 #$wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 
 ## UPO means: this is also a user preference option
