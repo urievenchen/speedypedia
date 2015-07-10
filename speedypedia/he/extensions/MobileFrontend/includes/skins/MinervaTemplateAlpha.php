@@ -169,6 +169,7 @@ class MinervaTemplateAlpha extends MinervaTemplateBeta {
 		echo $data[ 'headelement' ];
 		?>
 		<div id="mw-mf-viewport">
+			<img class="top-logo" src="/resources/assets/speedypedia/speedypedia_he_logo_2a.png" />
 			<div class="header">
 				<?php $this->renderHeader( $data ); ?>
 			</div>

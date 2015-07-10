@@ -416,6 +416,7 @@ class MinervaTemplate extends BaseTemplate {
 						echo $banner;
 					}
 				?>
+				<img class="top-logo" src="/resources/assets/speedypedia/speedypedia_en_logo_2a.png" />
 				<div class="header">
 					<?php
 						$this->renderHeader( $data );
