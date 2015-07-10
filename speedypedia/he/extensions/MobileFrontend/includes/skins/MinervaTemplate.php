@@ -411,12 +411,12 @@ class MinervaTemplate extends BaseTemplate {
 		<div id="mw-mf-viewport">
 			<?php $this->renderMainMenu( $data ); ?>
 			<div id="mw-mf-page-center">
+				<img class="top-logo" src="/resources/assets/speedypedia/speedypedia_he_logo_2a.png" />
 				<?php
 					foreach ( $this->data['banners'] as $banner ){
 						echo $banner;
 					}
 				?>
-				<img class="top-logo" src="/resources/assets/speedypedia/speedypedia_he_logo_2a.png" />
 				<div class="header">
 					<?php
 						$this->renderHeader( $data );
