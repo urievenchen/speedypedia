@@ -11,13 +11,30 @@
 
 /* Head */
 #mw-page-base {
-	height: 5em;
+	height: 7em;
 	background-position: bottom left;
 	background-repeat: repeat-x;
+
+background: #8fc0e8; /* Old browsers */
+background: -moz-linear-gradient(top, #8fc0e8 0%, #aecce5 24%, #dee8fc 48%, #ffffff 61%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc0e8), color-stop(24%,#aecce5), color-stop(48%,#dee8fc), color-stop(61%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#ffffff 61%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#ffffff 61%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#ffffff 61%); /* IE10+ */
+background: linear-gradient(to bottom, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#ffffff 61%); /* W3C *
+
+background: #8fc0e8; /* Old browsers */
+background: -moz-linear-gradient(top, #8fc0e8 0%, #aecce5 24%, #dee8fc 48%, #f4fafc 61%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8fc0e8), color-stop(24%,#aecce5), color-stop(48%,#dee8fc), color-stop(61%,#f4fafc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#f4fafc 61%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#f4fafc 61%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#f4fafc 61%); /* IE10+ */
+background: linear-gradient(to bottom, #8fc0e8 0%,#aecce5 24%,#dee8fc 48%,#f4fafc 61%); /* W3C */
+
 	/* This image is only a fallback (for IE 6-9), so we do not @embed it. */
-	background-image: url('images/page-fade.png');
-	.vertical-gradient(@body-background-color, @menu-background-color, 50%, 100%);
-	background-color: @body-background-color;
+	// background-image: url('images/speedy-nav-bg.png');
+	// .vertical-gradient(@body-background-color, @menu-background-color, 50%, 100%);
+ 	// background-color: @body-background-color;
 }
 
 #mw-head-base {
@@ -42,7 +59,7 @@ div#mw-head {
 #left-navigation {
 	float: left;
 	margin-left: 10em;
-	margin-top: 2.5em;
+	margin-top: 4.5em;
 	/* When right nav would overlap left nav, it's placed below it
 	   (normal CSS floats behavior). This rule ensures that no empty space
 	   is shown between them due to right nav's margin-top. Page layout
@@ -55,20 +72,20 @@ div#mw-head {
 
 #right-navigation {
 	float: right;
-	margin-top: 2.5em;
+	margin-top: 4.5em;
 }
 
 /* Logo */
 #p-logo {
 	position: absolute;
-	top: -160px;
+	top: -40px;
 	left: 0;
-	width: 10em;
+	width: 18em;
 	height: 160px;
 
 	a {
 		display: block;
-		width: 10em;
+		width: 18em;
 		height: 160px;
 		background-repeat: no-repeat;
 		background-position: center center;
