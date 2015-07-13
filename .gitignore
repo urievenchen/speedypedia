@@ -1,6 +1,6 @@
+admin/
 speedypedia/main/
 **/images/**
-**/cache/**
 **/docs/**
 **/*.lock
 
