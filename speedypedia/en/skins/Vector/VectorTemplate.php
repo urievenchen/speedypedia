@@ -90,7 +90,13 @@ class VectorTemplate extends BaseTemplate {
 		// Output HTML Page
 		$this->html( 'headelement' );
 		?>
-		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-page-base" class="noprint">
+			<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="<?php
+				echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] )
+				?>" <?php
+				echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
+				?>></a></div>
+		</div>
 		<div id="mw-head-base" class="noprint"></div>
 		<div id="content" class="mw-body" role="main">
 			<a id="top"></a>
@@ -192,11 +198,6 @@ class VectorTemplate extends BaseTemplate {
 				</div>
 			</div>
 			<div id="mw-panel">
-				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="<?php
-					echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] )
-					?>" <?php
-					echo Xml::expandAttributes( Linker::tooltipAndAccesskeyAttribs( 'p-logo' ) )
-					?>></a></div>
 				<?php $this->renderPortals( $this->data['sidebar'] ); ?>
 			</div>
 		</div>
