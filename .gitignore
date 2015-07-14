@@ -1,7 +1,6 @@
 admin/
 speedypedia/main/
-**/images/**
 **/docs/**
 **/*.lock
-
+.gitignore
 
