@@ -256,7 +256,80 @@ class VectorTemplate extends BaseTemplate {
 		</div>
 		<?php $this->printTrail(); ?>
 
-	</body>
+<div class="main-footer">
+
+<div class="links_table" >
+<table width="100%" cellpadding="0" cellspacing="0" border="0" dir="ltr" class="bottomlinks">
+<tr align="center" valign="top">
+<td width="2%" align="left"></td>
+<td width="16%" align="left">
+
+<table cellpadding="0" cellspacing="5" border="0" dir="ltr">
+
+<tr align="center" valign="top"><td><table cellpadding="0" cellspacing="0" border="0" dir="ltr"><tr align="center" valign="bottom">
+<td nowrap="nowrap" dir="ltr"><a href="http://en.speedypedia.info/" title="English">English</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="rtl"><a href="http://he.speedypedia.info/" title="עברית">עברית</a></td>
+</tr></table></td></tr>
+
+</table>
+
+</td>
+<td width="2%" align="left"></td>
+<td width="60%" align="center">
+
+<table cellspacing="5" cellpadding="0" border="0" dir="ltr">
+
+<tbody>
+<tr align="center" valign="top"><td>&nbsp;</td></tr>
+
+<tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
+<td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/" title="Speedy Net">Speedy Net</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://en.speedycomposer.com/" title="Speedy Composer">Speedy Composer</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.speedypedia.info/" title="Speedypedia">Speedypedia</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.speedywhois.com/" title="Speedy Whois">Speedy Whois</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/wordpress/" title="Speedy Net WordPress">Speedy Net WordPress</a></td>
+</tr></tbody></table></td></tr>
+
+<tr align="center" valign="top"><td>&nbsp;</td></tr>
+
+<tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
+<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedynet" title="Speedy Net's Shop">Speedy Net's Shop</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedycomposer" title="Speedy Composer's Shop">Speedy Composer's Shop</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedypedia" title="Speedypedia's Shop">Speedypedia's Shop</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedy_s" title="Speedy S-logo Shop">Speedy S-logo Shop</a></td>
+</tr></tbody></table></td></tr>
+
+<tr align="center" valign="top"><td>&nbsp;</td></tr>
+
+<tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
+<td nowrap="nowrap" dir="ltr"><a href="http://www.php.net/" title="PHP">PHP</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.mysql.com/" title="MySQL">MySQL</a></td>
+</tr></tbody></table></td>
+</tr>
+
+</tbody>
+</table>
+
+</td>
+<td width="2%" align="right"></td>
+<td width="16%" align="right"></td>
+<td width="2%" align="right"></td>
+</tr>
+</table>
+</div>
+
+</div>
+
+        </body>
 </html>
 <?php
 	}
