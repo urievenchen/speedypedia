@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /images/
+Disallow: /google*
+Disallow: /_*
+Disallow: /i*
+

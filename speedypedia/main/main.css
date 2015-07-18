@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+}
+
+#top-gradient {
+    height: 80px;
+    background: url('images/gradient.png');
+    margin-bottom: 15px;
+    background-repeat: repeat-x;
+}
+
+a:link {
+    text-decoration: none;
+    color: #146cc0;
+    background-color: transparent;
+    font-family: 'Arial';
+}
+
+a > span {
+    color: black;
+}
+
+a:hover > span {
+    color: #FF0000;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: #0000CC;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #FF0000;
+    background-color: transparent;
+}
+
+a:active {
+    color: #990099;
+    background-color: transparent;
+}
+
+td {
+    padding: 0px 60px;
+    font-size: 40px;
+}
+

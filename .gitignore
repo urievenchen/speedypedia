@@ -1,5 +1,4 @@
 admin/
-speedypedia/main/
 **/docs/**
 **/*.lock
 .gitignore
