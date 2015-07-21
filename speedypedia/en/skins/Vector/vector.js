@@ -6,6 +6,10 @@ jQuery( function ( $ ) {
 	 * Focus search input at the very end
 	 */
 	$( '#searchInput' ).attr( 'tabindex', $( document ).lastTabIndex() + 1 );
+	$('#wpRemember').click(function() {
+		if ($(this).is(':checked')) { $(this).val(1); }
+		else { $(this).val(0); }
+	});
 
 	/**
 	 * Dropdown menu accessibility

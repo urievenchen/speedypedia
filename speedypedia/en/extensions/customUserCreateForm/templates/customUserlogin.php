@@ -125,7 +125,7 @@ class customUserloginTemplate extends BaseTemplate {
 			<div class="mw-ui-vform-field">
 				<?php if ( $this->data['canremember'] ) { ?>
 					<div class="mw-ui-checkbox">
-						<input name="wpRemember" type="checkbox" value="1" id="wpRemember" tabindex="4"
+						<input name="wpRemember" type="checkbox" value="0" id="wpRemember" tabindex="4"
 							<?php if ( $this->data['remember'] ) {
 								echo 'checked="checked"';
 							} ?>

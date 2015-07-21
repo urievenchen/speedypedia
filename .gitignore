@@ -1,5 +1,6 @@
+.gitignore
 admin/
 **/docs/**
 **/*.lock
-.gitignore
-
+speedypedia/en/images
+speedypedia/he/images
