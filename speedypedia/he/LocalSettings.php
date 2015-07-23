@@ -135,3 +135,4 @@ $wgMFShowRedLinksAnon = true;
 
 # CustomUserForm
 require_once($IP."/extensions/customUserCreateForm/customUserCreateForm.php");
+
