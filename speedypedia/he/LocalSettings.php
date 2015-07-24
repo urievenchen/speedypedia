@@ -130,8 +130,8 @@ require_once("/var/include/speedypedia/he/secret_keys.php");
 
 require_once "$IP/extensions/MobileFrontend/MobileFrontend.php";
 $wgMFAutodetectMobileView = true;
-$wgMFShowRedLinks = true;
-$wgMFShowRedLinksAnon = true;
+//$wgMFShowRedLinks = true;
+//$wgMFShowRedLinksAnon = true;
 
 # CustomUserForm
 require_once($IP."/extensions/customUserCreateForm/customUserCreateForm.php");
