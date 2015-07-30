@@ -47,6 +47,7 @@ $wgLogo = "$wgResourceBasePath/resources/assets/speedypedia/speedypedia_en_logo_
 
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
+#$wgUserEmailConfirmationTokenExpiry = 60 * 60 * 24 * 7;
 
 $wgEmergencyContact = "webmaster@speedypedia.info";
 $wgPasswordSender = "webmaster@speedypedia.info";
@@ -95,10 +96,6 @@ $wgShellLocale = "en_US.utf8";
 
 # Site language code, should be one of the list in ./languages/Names.php
 $wgLanguageCode = "en";
-
-# Site upgrade key. Must be set to a string (default provided) to turn on the
-# web installer while LocalSettings.php is in place
-$wgUpgradeKey = "36c5fa8263249966";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
