@@ -2246,7 +2246,7 @@ class User implements IDBAccessObject {
 		global $wgClockSkewFudge;
 
 		$time = wfTimestamp( TS_MW, time() + $wgClockSkewFudge );
-		if ( $this->mTouched && $time <= $this->mTouched ) {
+		if ( $this->mTouched && $time < $this->mTouched ) {
 			$time = wfTimestamp( TS_MW, wfTimestamp( TS_UNIX, $this->mTouched ) + 1 );
 		}
 

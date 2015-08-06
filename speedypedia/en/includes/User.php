@@ -2246,7 +2246,7 @@ class User implements IDBAccessObject {
 		global $wgClockSkewFudge;
 
 		$time = wfTimestamp( TS_MW, time() + $wgClockSkewFudge );
-		if ( $this->mTouched && $time <= $this->mTouched ) {
+		if ( $this->mTouched && $time < $this->mTouched ) {
 			$time = wfTimestamp( TS_MW, wfTimestamp( TS_UNIX, $this->mTouched ) + 1 );
 		}
 
@@ -4160,6 +4160,7 @@ class User implements IDBAccessObject {
 		global $wgLang;
 		$expiration = null; // gets passed-by-ref and defined in next line.
 		$token = $this->confirmationToken( $expiration );
+
 		$url = $this->confirmationTokenUrl( $token );
 		$invalidateURL = $this->invalidationTokenUrl( $token );
 		$this->saveSettings();
