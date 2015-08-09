@@ -7,6 +7,7 @@ html, body {
     background: url('images/gradient.png');
     margin-bottom: 15px;
     background-repeat: repeat-x;
+    width: 100%;
 }
 
 a:link {
@@ -41,7 +42,30 @@ a:active {
 }
 
 td {
-    padding: 0px 60px;
+    padding: 0px 40px;
     font-size: 40px;
+}
+
+img.hands {
+    width: 100%;
+}
+
+img.main-logo {
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 1080px) {
+    img.fb-badge {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    img.fb-badge {
+        width: 20%;
+        height: auto;
+    }
 }
 
