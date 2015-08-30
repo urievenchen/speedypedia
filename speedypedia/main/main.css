@@ -47,12 +47,7 @@ td {
 }
 
 img.hands {
-    width: 100%;
-}
-
-img.main-logo {
-    width: 50%;
-    height: auto;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -60,11 +55,15 @@ img.main-logo {
         width: 30%;
         height: auto;
     }
+    img.main-logo {
+        width: 50%;
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 1080px) {
     img.fb-badge {
-        width: 20%;
+        width: 15%;
         height: auto;
     }
 }

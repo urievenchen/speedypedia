@@ -42,6 +42,7 @@ class MathCaptcha extends SimpleCaptcha {
 		if ( class_exists( 'MathRenderer' ) ) {
 			$math = MathRenderer::getRenderer( $sum, array(), MW_MATH_PNG );
 		} else {
+			error_log('exception creating math html');
 			throw new Exception( 'MathCaptcha requires the Math extension for MediaWiki versions 1.18 and above.' );
 		}
 		$html = $math->render();
