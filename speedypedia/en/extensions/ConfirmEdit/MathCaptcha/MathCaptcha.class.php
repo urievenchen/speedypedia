@@ -31,9 +31,11 @@ class MathCaptcha extends SimpleCaptcha {
 	function pickSum() {
 		$a = mt_rand( 0, 100 );
 		$b = mt_rand( 0, 10 );
-		$op = mt_rand( 0, 1 ) ? '+' : '-';
+		# $op = mt_rand( 0, 1 ) ? '+' : '-';
+		$op = '+';
 		$sum = "{$a} {$op} {$b} = ";
-		$ans = $op == '+' ? ( $a + $b ) : ( $a - $b );
+		# $ans = $op == '+' ? ( $a + $b ) : ( $a - $b );
+		$ans = $a + $b;
 		return array( $sum, $ans );
 	}
 
