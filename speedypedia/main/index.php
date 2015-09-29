@@ -86,10 +86,10 @@ $hebrew_alpha = "אלפא";
     <table border="0" cellspacing="20" cellpadding="0" dir="ltr">
         <tr>
             <td dir="ltr">
-                <a href="http://en.speedypedia.info/" title="English [alpha]" target="_top">English<span> [alpha]</span></a>
+                <a class="wiki-link" href="http://en.speedypedia.info/" title="English [alpha]" target="_top">English<span> [alpha]</span></a>
             </td>
             <td dir="rtl">
-                <a href="http://he.speedypedia.info/" title="עברית [אלפא]" target="_top"><?php echo $hebrew_he; ?> <span> [<?php echo $hebrew_alpha; ?>]</span></a>
+                <a class="wiki-link" href="http://he.speedypedia.info/" title="עברית [אלפא]" target="_top"><?php echo $hebrew_he; ?> <span> [<?php echo $hebrew_alpha; ?>]</span></a>
             </td>
         </tr>
     </table>
@@ -100,13 +100,14 @@ $hebrew_alpha = "אלפא";
     <br />
     <br />
     <!-- Facebook Badge START -->
+    <a class="speedy-bottom-badge-link" href="http://www.facebook.com/speedyevenchen" target="_top" title="Speedy">Speedy</a>
+    <br>
     <a href="http://www.facebook.com/speedyevenchen" target="_top" title="Speedy">
-        <img class="fb-badge" src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;" />
+        <img class="fb-badge" src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;">
     </a>
-    <br/>
+    <br>
     <!-- Facebook Badge END -->
     <br />
 </center>
 </body>
 </html>
-

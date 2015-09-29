@@ -43,11 +43,24 @@ a:active {
 
 td {
     padding: 0px 40px;
+}
+
+.wiki-link {
     font-size: 40px;
 }
 
 img.hands {
     max-width: 100%;
+}
+
+.speedy-bottom-badge-link {
+    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+     font-size: 11px;
+     font-variant: normal;
+     font-style: normal;
+     font-weight: normal;
+     color: #3B5998;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1080px) {
@@ -56,15 +69,13 @@ img.hands {
         height: auto;
     }
     img.main-logo {
-        width: 50%;
+        width: 65%;
         height: auto;
     }
-}
-
-@media screen and (min-width: 1080px) {
-    img.fb-badge {
-        width: 15%;
-        height: auto;
+    .wiki-link {
+        font-size: 60px;
+    }
+    .speedy-bottom-badge-link {
+        font-size: 40px;
     }
 }
-
