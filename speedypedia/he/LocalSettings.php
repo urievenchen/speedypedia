@@ -133,28 +133,28 @@ $wgMFShowRedLinksAnon = true;
 require_once($IP."/extensions/customUserCreateForm/customUserCreateForm.php");
 
 require_once "$IP/extensions/Math/Math.php";
-$wgTexvc = '/usr/bin/texvc';
-$wgMathPath = "/resources/assets/math";
-$wgMathDirectory = "$IP/resources/assets/math";
-$wgMathValidModes = array(MW_MATH_PNG);
+#$wgTexvc = '/usr/bin/texvc';
+#$wgMathPath = "/resources/assets/math";
+#$wgMathDirectory = "$IP/resources/assets/math";
+#$wgMathValidModes = array(MW_MATH_PNG);
 
 # ConfirmEdit
-require_once "$IP/extensions/ConfirmEdit/ConfirmEdit.php";
-wfLoadExtension('ConfirmEdit/MathCaptcha');
+#require_once "$IP/extensions/ConfirmEdit/ConfirmEdit.php";
+#wfLoadExtension('ConfirmEdit/MathCaptcha');
 
 # groups to skip captcha for
-$wgGroupPermissions['*'            ]['skipcaptcha'] = false;
-$wgGroupPermissions['user'         ]['skipcaptcha'] = false;
-$wgGroupPermissions['autoconfirmed']['skipcaptcha'] = false;
-$wgGroupPermissions['bot'          ]['skipcaptcha'] = true;
-$wgGroupPermissions['sysop'        ]['skipcaptcha'] = true;
+#$wgGroupPermissions['*'            ]['skipcaptcha'] = false;
+#$wgGroupPermissions['user'         ]['skipcaptcha'] = false;
+#$wgGroupPermissions['autoconfirmed']['skipcaptcha'] = false;
+#$wgGroupPermissions['bot'          ]['skipcaptcha'] = true;
+#$wgGroupPermissions['sysop'        ]['skipcaptcha'] = true;
 
 # pages/actions to show captcha
-$wgCaptchaTriggers['edit']          = false;
-$wgCaptchaTriggers['create']        = false;
-$wgCaptchaTriggers['addurl']        = true;
-$wgCaptchaTriggers['createaccount'] = true;
-$wgCaptchaTriggers['badlogin']      = true;
+#$wgCaptchaTriggers['edit']          = false;
+#$wgCaptchaTriggers['create']        = false;
+#$wgCaptchaTriggers['addurl']        = true;
+#$wgCaptchaTriggers['createaccount'] = true;
+#$wgCaptchaTriggers['badlogin']      = true;
 
-$wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
-$ceAllowConfirmedEmail = true;
+#$wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
+#$ceAllowConfirmedEmail = true;
