@@ -137,15 +137,17 @@ $wgMFShowRedLinksAnon = true;
 require_once($IP."/extensions/customUserCreateForm/customUserCreateForm.php");
 
 # Math
-require_once "$IP/extensions/Math/Math.php";
-$wgTexvc = '/usr/bin/texvc';
-$wgMathPath = "/resources/assets/math";
-$wgMathDirectory = "$IP/resources/assets/math";
-$wgMathValidModes = array(MW_MATH_PNG);
+#require_once "$IP/extensions/Math/Math.php";
+#$wgTexvc = '/usr/bin/texvc';
+#$wgMathPath = "/resources/assets/math";
+#$wgMathDirectory = "$IP/resources/assets/math";
+#$wgMathValidModes = array(MW_MATH_PNG);
 
 # ConfirmEdit
 require_once "$IP/extensions/ConfirmEdit/ConfirmEdit.php";
-wfLoadExtension('ConfirmEdit/MathCaptcha');
+wfLoadExtension('ConfirmEdit/ReCaptcha');
+require_once "$IP/extensions/ConfirmEdit/ReCaptcha.php";
+$wgCaptchaClass = 'ReCaptcha';
 
 # groups to skip captcha for
 $wgGroupPermissions['*'            ]['skipcaptcha'] = false;

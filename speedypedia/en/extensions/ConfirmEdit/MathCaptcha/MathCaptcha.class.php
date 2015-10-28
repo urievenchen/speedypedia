@@ -31,11 +31,9 @@ class MathCaptcha extends SimpleCaptcha {
 	function pickSum() {
 		$a = mt_rand( 0, 100 );
 		$b = mt_rand( 0, 10 );
-		# $op = mt_rand( 0, 1 ) ? '+' : '-';
-		$op = '+';
+		$op = mt_rand( 0, 1 ) ? '+' : '-';
 		$sum = "{$a} {$op} {$b} = ";
-		# $ans = $op == '+' ? ( $a + $b ) : ( $a - $b );
-		$ans = $a + $b;
+		$ans = $op == '+' ? ( $a + $b ) : ( $a - $b );
 		return array( $sum, $ans );
 	}
 
@@ -44,7 +42,6 @@ class MathCaptcha extends SimpleCaptcha {
 		if ( class_exists( 'MathRenderer' ) ) {
 			$math = MathRenderer::getRenderer( $sum, array(), MW_MATH_PNG );
 		} else {
-			error_log('exception creating math html');
 			throw new Exception( 'MathCaptcha requires the Math extension for MediaWiki versions 1.18 and above.' );
 		}
 		$html = $math->render();
