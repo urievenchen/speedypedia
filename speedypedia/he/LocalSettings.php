@@ -158,3 +158,6 @@ require_once "$IP/extensions/Math/Math.php";
 
 #$wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
 #$ceAllowConfirmedEmail = true;
+
+wfLoadExtension('Nuke');
+

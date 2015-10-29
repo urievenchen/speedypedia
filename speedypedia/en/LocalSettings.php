@@ -165,3 +165,6 @@ $wgCaptchaTriggers['badlogin']      = true;
 
 $wgGroupPermissions['emailconfirmed']['skipcaptcha'] = true;
 $ceAllowConfirmedEmail = true;
+
+wfLoadExtension('Nuke');
+
