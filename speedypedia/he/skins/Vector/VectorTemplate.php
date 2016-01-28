@@ -311,6 +311,8 @@ class VectorTemplate extends BaseTemplate {
 <td nowrap="nowrap" dir="ltr"><a href="http://www.mysql.com/" title="MySQL">MySQL</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.mediawiki.org/" title="MediaWiki">MediaWiki</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.ubuntu.com/" title="Ubuntu">Ubuntu</a></td>
 </tr></table></td></tr>
 
 </table>
