@@ -298,6 +298,8 @@ class VectorTemplate extends BaseTemplate {
 <tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
 <td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedynet" title="Speedy Net's Shop">Speedy Net's Shop</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedymatch" title="Speedy Match's Shop">Speedy Match's Shop</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedycomposer" title="Speedy Composer's Shop">Speedy Composer's Shop</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedypedia" title="Speedypedia's Shop">Speedypedia's Shop</a></td>
