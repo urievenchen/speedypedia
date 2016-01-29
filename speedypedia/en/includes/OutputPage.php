@@ -3388,12 +3388,106 @@ class OutputPage extends ContextSource {
 			) );
 		}
 
+		/*
 		if ( $config->get( 'Favicon' ) !== false ) {
 			$tags['favicon'] = Html::element( 'link', array(
 				'rel' => 'shortcut icon',
 				'href' => $config->get( 'Favicon' )
 			) );
 		}
+		*/
+
+		$tags['apple-touch-icon-60x60'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '60x60',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-60x60.png',
+		) );
+		$tags['apple-touch-icon-72x72'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '72x72',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-72x72.png',
+		) );
+		$tags['apple-touch-icon-76x76'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '76x76',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-76x76.png',
+		) );
+		$tags['apple-touch-icon-114x114'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '114x114',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-114x114.png',
+		) );
+		$tags['apple-touch-icon-120x120'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '120x120',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-120x120.png',
+		) );
+		$tags['apple-touch-icon-144x144'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '144x144',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-144x144.png',
+		) );
+		$tags['apple-touch-icon-152x152'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '152x152',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-152x152.png',
+		) );
+		$tags['apple-touch-icon-180x180'] = Html::element( 'link', array(
+			'rel' => 'apple-touch-icon',
+			'sizes' => '180x180',
+			'href' => 'http://www.speedypedia.info/images/icons/apple-touch-icon-180x180.png',
+		) );
+		$tags['favicon-32x32'] = Html::element( 'link', array(
+			'rel' => 'icon',
+			'type' => 'image/png',
+			'href' => 'http://www.speedypedia.info/images/icons/favicon-32x32.png',
+			'sizes' => '32x32',
+		) );
+		$tags['favicon-194x194'] = Html::element( 'link', array(
+			'rel' => 'icon',
+			'type' => 'image/png',
+			'href' => 'http://www.speedypedia.info/images/icons/favicon-194x194.png',
+			'sizes' => '194x194',
+		) );
+		$tags['favicon-96x96'] = Html::element( 'link', array(
+			'rel' => 'icon',
+			'type' => 'image/png',
+			'href' => 'http://www.speedypedia.info/images/icons/favicon-96x96.png',
+			'sizes' => '96x96',
+		) );
+		$tags['android-chrome-192x192'] = Html::element( 'link', array(
+			'rel' => 'icon',
+			'type' => 'image/png',
+			'href' => 'http://www.speedypedia.info/images/icons/android-chrome-192x192.png',
+			'sizes' => '192x192',
+		) );
+		$tags['favicon-16x16'] = Html::element( 'link', array(
+			'rel' => 'icon',
+			'type' => 'image/png',
+			'href' => 'http://www.speedypedia.info/images/icons/favicon-16x16.png',
+			'sizes' => '16x16',
+		) );
+		$tags['manifest'] = Html::element( 'link', array(
+			'rel' => 'manifest',
+			'href' => 'http://www.speedypedia.info/manifest.json',
+		) );
+		$tags['mask-icon'] = Html::element( 'link', array(
+			'rel' => 'mask-icon',
+			'href' => 'http://www.speedypedia.info/images/icons/safari-pinned-tab.svg',
+			'color' => '#5bbad5',
+		) );
+		$tags['meta-msapplication-TileColor'] = Html::element( 'meta', array(
+			'name' => 'msapplication-TileColor',
+			'content' => '#da532c',
+		) );
+		$tags['meta-msapplication-TileImage'] = Html::element( 'meta', array(
+			'name' => 'msapplication-TileImage',
+			'content' => 'http://www.speedypedia.info/images/icons/mstile-144x144.png',
+		) );
+		$tags['meta-theme-color'] = Html::element( 'meta', array(
+			'name' => 'theme-color',
+			'content' => '#b2cafa',
+		) );
 
 		# OpenSearch description link
 		$tags['opensearch'] = Html::element( 'link', array(
