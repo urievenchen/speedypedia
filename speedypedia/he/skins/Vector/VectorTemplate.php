@@ -282,11 +282,11 @@ class VectorTemplate extends BaseTemplate {
 <tr align="center" valign="top"><td><table cellpadding="0" cellspacing="0" border="0" dir="rtl"><tr align="center" valign="bottom">
 <td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/" title="ספידי נט">ספידי נט</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="rtl"><a href="http://he.speedymatch.com/" title="ספידי מץ'">ספידי מץ'</a></td>
+<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://en.speedycomposer.com/" title="ספידי קומפוזר">ספידי קומפוזר</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://www.speedypedia.info/" title="ספידיפדיה">ספידיפדיה</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://www.speedywhois.com/" title="ספידי הואיז">ספידי הואיז</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/wordpress/" title="ספידי נט וורדפרס">ספידי נט וורדפרס</a></td>
 </tr></table></td></tr>

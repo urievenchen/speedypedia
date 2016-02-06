@@ -284,11 +284,11 @@ class VectorTemplate extends BaseTemplate {
 <tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
 <td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/" title="Speedy Net">Speedy Net</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+<td nowrap="nowrap" dir="ltr"><a href="http://en.speedymatch.com/" title="Speedy Match">Speedy Match</a></td>
+<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://en.speedycomposer.com/" title="Speedy Composer">Speedy Composer</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.speedypedia.info/" title="Speedypedia">Speedypedia</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="ltr"><a href="http://www.speedywhois.com/" title="Speedy Whois">Speedy Whois</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/wordpress/" title="Speedy Net WordPress">Speedy Net WordPress</a></td>
 </tr></tbody></table></td></tr>
