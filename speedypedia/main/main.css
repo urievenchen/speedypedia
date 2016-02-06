@@ -4,7 +4,7 @@ html, body {
 
 #top-gradient {
     height: 80px;
-    background: url('images/gradient.png');
+    background: url('/images/gradient.png');
     margin-bottom: 15px;
     background-repeat: repeat-x;
     width: 100%;
