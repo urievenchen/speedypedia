@@ -288,7 +288,7 @@ class VectorTemplate extends BaseTemplate {
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://www.speedypedia.info/" title="ספידיפדיה">ספידיפדיה</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/wordpress/" title="ספידי נט וורדפרס">ספידי נט וורדפרס</a></td>
+<td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/blog/" title="ספידי נט בלוג">ספידי נט בלוג</a></td>
 </tr></table></td></tr>
 
 <tr align="center" valign="top"><td>&nbsp;</td></tr>
