@@ -112,7 +112,7 @@ $hebrew_alpha = "אלפא";
         </tr>
     </table>
     <br />
-    <img class="hands" src="http://www.speedypedia.info/images/hands.png" alt="hands" />
+    <img class="main-image" src="http://www.speedypedia.info/images/hands.png" alt="hands" />
     <br />
     <br />
     <br />
