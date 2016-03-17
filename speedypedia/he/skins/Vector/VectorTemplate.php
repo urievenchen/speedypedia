@@ -280,12 +280,6 @@ class VectorTemplate extends BaseTemplate {
 <table cellpadding="0" cellspacing="5" border="0" dir="rtl">
 
 <tr align="center" valign="top"><td><table cellpadding="0" cellspacing="0" border="0" dir="rtl"><tr align="center" valign="bottom">
-<td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/" title="ספידי נט">ספידי נט</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://he.speedymatch.com/" title="ספידי מץ'">ספידי מץ'</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://en.speedycomposer.com/" title="ספידי קומפוזר">ספידי קומפוזר</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://www.speedypedia.info/" title="ספידיפדיה">ספידיפדיה</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://he.speedy.net/blog/" title="ספידי נט בלוג">ספידי נט בלוג</a></td>
@@ -294,12 +288,6 @@ class VectorTemplate extends BaseTemplate {
 <tr align="center" valign="top"><td>&nbsp;</td></tr>
 
 <tr align="center" valign="top"><td><table cellpadding="0" cellspacing="0" border="0" dir="rtl"><tr align="center" valign="bottom">
-<td nowrap="nowrap" dir="rtl"><a href="http://www.cafepress.com/speedynet" title="החנות של ספידי נט">החנות של ספידי נט</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://www.cafepress.com/speedymatch" title="החנות של ספידי מץ'">החנות של ספידי מץ'</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="rtl"><a href="http://www.cafepress.com/speedycomposer" title="החנות של ספידי קומפוזר">החנות של ספידי קומפוזר</a></td>
-<td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://www.cafepress.com/speedypedia" title="החנות של ספידיפדיה">החנות של ספידיפדיה</a></td>
 <td nowrap="nowrap" dir="rtl">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="rtl"><a href="http://www.cafepress.com/speedy_s" title="החנות של ספידי S-לוגו">החנות של ספידי S-לוגו</a></td>

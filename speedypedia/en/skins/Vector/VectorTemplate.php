@@ -282,12 +282,6 @@ class VectorTemplate extends BaseTemplate {
 
 <tbody>
 <tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
-<td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/" title="Speedy Net">Speedy Net</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="ltr"><a href="http://en.speedymatch.com/" title="Speedy Match">Speedy Match</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="ltr"><a href="http://en.speedycomposer.com/" title="Speedy Composer">Speedy Composer</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.speedypedia.info/" title="Speedypedia">Speedypedia</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/blog/" title="Speedy Net Blog">Speedy Net Blog</a></td>
@@ -296,12 +290,6 @@ class VectorTemplate extends BaseTemplate {
 <tr align="center" valign="top"><td>&nbsp;</td></tr>
 
 <tr align="center" valign="top"><td><table cellspacing="0" cellpadding="0" border="0" dir="ltr"><tbody><tr align="center" valign="bottom">
-<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedynet" title="Speedy Net's Shop">Speedy Net's Shop</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedymatch" title="Speedy Match's Shop">Speedy Match's Shop</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
-<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedycomposer" title="Speedy Composer's Shop">Speedy Composer's Shop</a></td>
-<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedypedia" title="Speedypedia's Shop">Speedypedia's Shop</a></td>
 <td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
 <td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedy_s" title="Speedy S-logo Shop">Speedy S-logo Shop</a></td>
