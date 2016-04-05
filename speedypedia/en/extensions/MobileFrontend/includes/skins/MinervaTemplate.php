@@ -164,6 +164,133 @@ class MinervaTemplate extends BaseTemplate {
 				}
 			?>
 		</div>
+
+		<div class="main-footer">
+
+			<div class="links_table" >
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" dir="ltr" class="bottomlinks">
+					<tr align="center" valign="top">
+						<td width="2%" align="left"></td>
+						<td width="16%" align="left">
+
+							<table cellpadding="0" cellspacing="5" border="0" dir="ltr">
+
+								<tr align="center" valign="top">
+									<td>
+										<table cellpadding="0" cellspacing="0" border="0" dir="ltr">
+											<tr align="center" valign="bottom">
+												<td nowrap="nowrap" dir="ltr"><a href="http://en.speedypedia.info/" title="English">English</a></td>
+												<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+												<td nowrap="nowrap" dir="rtl"><a href="http://he.speedypedia.info/" title="עברית">עברית</a></td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+							</table>
+
+						</td>
+						<td width="2%" align="left"></td>
+						<td width="60%" align="center">
+
+							<table cellspacing="5" cellpadding="0" border="0" dir="ltr">
+
+								<tbody>
+									<tr align="center" valign="top">
+										<td>
+											<table cellspacing="0" cellpadding="0" border="0" dir="ltr">
+												<tbody>
+													<tr align="center" valign="bottom">
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.speedypedia.info/" title="Speedypedia">Speedypedia</a></td>
+														<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+														<td nowrap="nowrap" dir="ltr"><a href="http://en.speedy.net/blog/" title="Speedy Net Blog">Speedy Net Blog</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+
+									<tr align="center" valign="top"><td>&nbsp;</td></tr>
+
+									<tr align="center" valign="top">
+										<td>
+											<table cellspacing="0" cellpadding="0" border="0" dir="ltr">
+												<tbody>
+													<tr align="center" valign="bottom">
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedypedia" title="Speedypedia's Shop">Speedypedia's Shop</a></td>
+														<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.cafepress.com/speedy_s" title="Speedy S-logo Shop">Speedy S-logo Shop</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+
+									<tr align="center" valign="top"><td>&nbsp;</td></tr>
+
+									<tr align="center" valign="top">
+										<td>
+											<table cellspacing="0" cellpadding="0" border="0" dir="ltr">
+												<tbody>
+													<tr align="center" valign="bottom">
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.php.net/" title="PHP">PHP</a></td>
+														<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.mysql.com/" title="MySQL">MySQL</a></td>
+														<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.mediawiki.org/" title="MediaWiki">MediaWiki</a></td>
+														<td nowrap="nowrap" dir="ltr">&nbsp;·&nbsp;</td>
+														<td nowrap="nowrap" dir="ltr"><a href="http://www.ubuntu.com/" title="Ubuntu">Ubuntu</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+
+						</td>
+						<td width="2%" align="right"></td>
+						<td width="16%" align="right"></td>
+						<td width="2%" align="right"></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<center>
+			<br />
+			<!-- Facebook Badge START --><a href="http://www.facebook.com/speedyevenchen" target="_top" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Speedy">Speedy</a><br/><a href="http://www.facebook.com/speedyevenchen" target="_top" title="Speedy"><img class="fb-badge" src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
+			<br />
+			<?php $footericons = $this->getFooterIcons( "icononly" );
+			if ( count( $footericons ) > 0 ) {
+				?>
+				<ul id="footer-icons" class="noprint">
+					<?php
+					foreach ( $footericons as $blockName => $footerIcons ) {
+						?>
+						<li id="footer-<?php
+						echo htmlspecialchars( $blockName ); ?>ico">
+							<?php
+							foreach ( $footerIcons as $icon ) {
+								?>
+								<?php
+								echo $this->getSkin()->makeFooterIcon( $icon );
+								?>
+
+							<?php
+							}
+							?>
+						</li>
+					<?php
+					}
+					?>
+				</ul>
+			<?php
+			}
+			?>
+		</center>
 		<?php
 	}
 
