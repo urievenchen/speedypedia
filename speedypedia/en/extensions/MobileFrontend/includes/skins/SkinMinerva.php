@@ -665,6 +665,8 @@ class SkinMinerva extends SkinTemplate {
 				'places' => array(
 					'terms-use',
 					'privacy',
+					'about',
+					'disclaimer'
 				),
 			) );
 		}
