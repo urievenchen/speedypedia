@@ -251,7 +251,7 @@
 	"mobile-frontend-placeholder-alpha": "Search {{SITENAME}} (Experimental)",
 	"mobile-frontend-placeholder-app": "Search {{SITENAME}} (Web App)",
 	"mobile-frontend-placeholder-beta": "Search {{SITENAME}} (Beta)",
-	"mobile-frontend-privacy-link-text": "Privacy",
+	"mobile-frontend-privacy-link-text": "Privacy policy",
 	"mobile-frontend-profile-activity-heading": "Recent activity",
 	"mobile-frontend-profile-error": "Oh no!",
 	"mobile-frontend-profile-footer-ancient": "Made [[Special:Contributions/$1|{{PLURAL:$3|1 edit|$3 edits}}]] and [[Special:Uploads/$1|{{PLURAL:$4|1 upload|$4 uploads|500=500+ uploads}}]].",
