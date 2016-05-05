@@ -262,7 +262,7 @@
 	"mobile-frontend-placeholder-alpha": "חיפוש באתר {{SITENAME}} (ניסיוני)",
 	"mobile-frontend-placeholder-app": "חיפוש ב{{GRAMMAR:תחילית|{{SITENAME}}}}",
 	"mobile-frontend-placeholder-beta": "חיפוש באתר {{SITENAME}} (בטא)",
-	"mobile-frontend-privacy-link-text": "פרטיות",
+	"mobile-frontend-privacy-link-text": "מדיניות הפרטיות",
 	"mobile-frontend-profile-activity-heading": "פעילות לאחרונה",
 	"mobile-frontend-profile-error": "אבוי!",
 	"mobile-frontend-profile-footer-ancient": "{{GENDER:$1|עשה|עשתה}} [[Special:Contributions/$1|{{PLURAL:$3|עריכה אחת|$3 עריכות}}]] {{GENDER:$1|והעלה|והעלתה}} [[Special:Uploads/$1|{{PLURAL:$4|קובץ אחד|$4 קבצים|500=יותר מ־500 קבצים}}]].",

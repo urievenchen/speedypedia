@@ -163,7 +163,78 @@ class MinervaTemplate extends BaseTemplate {
 			<?php
 				}
 			?>
+			<div class="main-footer">
+				<ul>
+					<li>
+						<a href="http://www.speedypedia.info/" title="ספידיפדיה">ספידיפדיה</a>
+					</li>
+					<li>
+						<a href="http://en.speedy.net/blog/" title="ספידי נט בלוג">ספידי נט בלוג</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="http://www.cafepress.com/speedypedia" title="החנות של ספידיפדיה">החנות של ספידיפדיה</a>
+					</li>
+					<li>
+						<a href="http://www.cafepress.com/speedy_s" title="החנות של ספידי S-לוגו">החנות של ספידי S-לוגו</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="http://www.php.net/" title="PHP">PHP</a>
+					</li>
+					<li>
+						<a href="http://www.mysql.com/" title="MySQL">MySQL</a>
+					</li>
+					<li>
+						<a href="http://www.mediawiki.org/" title="MediaWiki">MediaWiki</a>
+					</li>
+					<li>
+						<a href="http://www.ubuntu.com/" title="Ubuntu">Ubuntu</a>
+					</li>
+				</ul>
+				<div class="footer-links">
+					<ul class="languages">
+						<li>
+							<a href="http://en.speedypedia.info/" title="English">English</a>
+						</li>
+						<li>
+							<a href="http://he.speedypedia.info/" title="עברית">עברית</a>
+						</li>
+					</ul>
+					<?php $footericons = $this->getFooterIcons( "icononly" );
+					if ( count( $footericons ) > 0 ) {
+						?>
+						<div id="footer-icons" class="noprint">
+							<?php
+								foreach ( $footericons as $blockName => $footerIcons ) {
+							?>
+								<?php
+									foreach ( $footerIcons as $icon ) {
+								?>
+								<?php
+									echo $this->getSkin()->makeFooterIcon( $icon );
+								?>
+				
+								<?php
+										}
+								?>
+		
+							<?php
+								}
+							?>
+						</div>
+					<?php
+						}
+					?>
+				</div>	
+				<div class="speedy-image">
+					<!-- Facebook Badge START --><a href="http://www.facebook.com/speedyevenchen" target="_top" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="Speedy">Speedy</a><br/><a href="http://www.facebook.com/speedyevenchen" target="_top" title="Speedy"><img class="fb-badge" src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
+				</div>
+			</div>
 		</div>
+
 		<?php
 	}
 
