@@ -230,7 +230,7 @@ class MinervaTemplate extends BaseTemplate {
 					?>
 				</div>	
 				<div class="speedy-image">
-					<!-- Facebook Badge START --><a href="http://www.facebook.com/speedyevenchen" target="_top" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="ספידי">ספידי</a><br/><a href="http://www.facebook.com/speedyevenchen" target="_top" title="ספידי"><img src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
+					<!-- Facebook Badge START --><a href="https://www.facebook.com/speedyevenchen" target="_top" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" title="ספידי">ספידי</a><br/><a href="https://www.facebook.com/speedyevenchen" target="_top" title="ספידי"><img src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;" /></a><br/><!-- Facebook Badge END -->
 				</div>
 			</div>
 		</div>
