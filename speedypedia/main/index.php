@@ -2,7 +2,7 @@
 /*
       ###############################################
       # PHP Sources for Speedy Net                  #
-      # By Uri Even-Chen, Speedy Net                #
+      # By Uri Rodberg, Speedy Net                  #
       # http://www.speedy.net/                      #
       # uri@speedy.net                              #
       ###############################################
