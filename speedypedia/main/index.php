@@ -46,6 +46,13 @@ if (strlen($tmp_name_1) == 2) {
     }
 }
 
+// Allow only www.speedypedia.info as HTTP_HOST_ONLY.
+if (!($GLOBALS['SPEEDY_GLOBAL_VARS']['HTTP_HOST_ONLY'] === 'www.speedypedia.info')) {
+    header('HTTP/1.1 301 Moved Permanently');
+    header('Location: http://www.speedypedia.info/');
+    exit;
+}
+
 if (!($GLOBALS['SPEEDY_GLOBAL_VARS']['HTTP_HOST_ONLY'] === $tmp_canonical_name)) {
     header('HTTP/1.1 301 Moved Permanently');
     header('Location: http://' . $tmp_canonical_name . '/');
@@ -55,13 +62,6 @@ if (!($GLOBALS['SPEEDY_GLOBAL_VARS']['HTTP_HOST_ONLY'] === $tmp_canonical_name))
 if (!($_SERVER['REQUEST_URI'] === '/')) {
     header('HTTP/1.1 301 Moved Permanently');
     header('Location: http://' . $tmp_canonical_name . '/');
-    exit;
-}
-
-// Allow only www.speedypedia.info as HTTP_HOST_ONLY.
-if (!($GLOBALS['SPEEDY_GLOBAL_VARS']['HTTP_HOST_ONLY'] === 'www.speedypedia.info')) {
-    header('HTTP/1.1 301 Moved Permanently');
-    header('Location: http://www.speedypedia.info/');
     exit;
 }
 
