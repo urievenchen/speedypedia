@@ -128,7 +128,7 @@ $hebrew_alpha = "אלפא";
     <a class="speedy-bottom-badge-link" href="https://www.facebook.com/speedyevenchen" target="_top" title="Speedy">Speedy</a>
     <br>
     <a href="https://www.facebook.com/speedyevenchen" target="_top" title="Speedy">
-        <img class="fb-badge" src="http://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;">
+        <img class="fb-badge" src="https://badge.facebook.com/badge/110275029046282.1598.135831057.png" style="border: 0px;">
     </a>
     <br>
     <!-- Facebook Badge END -->
