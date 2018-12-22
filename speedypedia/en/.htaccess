@@ -1,0 +1,3 @@
+<If "%{HTTP_HOST} != 'en.speedypedia.info'">
+    Redirect 301 "/" "http://en.speedypedia.info/"
+</If>
